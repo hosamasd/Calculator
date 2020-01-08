@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E99C4AC23C5FA4100CCBCDC /* Enums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E99C4AB23C5FA4100CCBCDC /* Enums.swift */; };
 		4EBA3ED323C5E554004D74C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA3ED223C5E554004D74C4 /* AppDelegate.swift */; };
 		4EBA3ED523C5E554004D74C4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBA3ED423C5E554004D74C4 /* ViewController.swift */; };
 		4EBA3ED823C5E554004D74C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EBA3ED623C5E554004D74C4 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E99C4AB23C5FA4100CCBCDC /* Enums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enums.swift; sourceTree = "<group>"; };
 		4EBA3ECF23C5E554004D74C4 /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EBA3ED223C5E554004D74C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EBA3ED423C5E554004D74C4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,6 +39,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E99C4AA23C5FA3700CCBCDC /* helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4EBA3EE523C5E56D004D74C4 /* ExtensionUivew.swift */,
+				4E99C4AB23C5FA4100CCBCDC /* Enums.swift */,
+			);
+			path = helpers;
+			sourceTree = "<group>";
+		};
 		4EBA3EC623C5E554004D74C4 = {
 			isa = PBXGroup;
 			children = (
@@ -62,7 +73,7 @@
 				4EBA3ED923C5E555004D74C4 /* Assets.xcassets */,
 				4EBA3EDB23C5E555004D74C4 /* LaunchScreen.storyboard */,
 				4EBA3EDE23C5E555004D74C4 /* Info.plist */,
-				4EBA3EE523C5E56D004D74C4 /* ExtensionUivew.swift */,
+				4E99C4AA23C5FA3700CCBCDC /* helpers */,
 			);
 			path = Calculator;
 			sourceTree = "<group>";
@@ -148,6 +159,7 @@
 			files = (
 				4EBA3ED523C5E554004D74C4 /* ViewController.swift in Sources */,
 				4EBA3ED323C5E554004D74C4 /* AppDelegate.swift in Sources */,
+				4E99C4AC23C5FA4100CCBCDC /* Enums.swift in Sources */,
 				4EBA3EE623C5E56D004D74C4 /* ExtensionUivew.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
