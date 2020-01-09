@@ -54,3 +54,12 @@ enum CalculatorButton: String {
     }
     
 }
+
+
+enum operatorType {
+    case plus
+    case subtract
+    case multiply
+    case divide
+    case none
+}
