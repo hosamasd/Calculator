@@ -9,7 +9,7 @@
 import UIKit
 
 
-enum CalculatorButton: String {
+enum CalculatorButton: String , CaseIterable{
     
     case zero, one, two, three, four, five, six, seven, eight, nine
     case equals, plus, minus, multiply, divide
